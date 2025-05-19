@@ -1,12 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Aniversário, Manuela!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: radial-gradient(circle, rgba(255,209,220,0.1), transparent 60%);
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #ffd1dc;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.3em;
+      color: #ccc;
+    }
+
+    section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 10%;
+      gap: 60px;
+    }
+
+    section:nth-child(even) {
+      flex-direction: row-reverse;
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .text-box {
+      flex: 1;
+    }
+
+    .text-box h2 {
+      color: #ffd1dc;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .text-box p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #f1f1f1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 1em;
+      color: #bbb;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-    <p>Site Para Manu</p>
-    <h1>Feliz Aniversario</h1>
+
+  <!-- Música de fundo -->
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <header>
+    <h1>Feliz Aniversário, Manuela! 🎉</h1>
+    <p>Um site feito com carinho, por alguém que te admira muito 💌</p>
+  </header>
+
+  <section>
+    <div class="text-box">
+      <h2>🎮 Nosso CS2</h2>
+      <p>Jogar CS2 com você é uma das melhores partes do meu dia. Entre uma flash errada e uma kill no clutch, a gente se diverte de um jeito que só nós entendemos.</p>
+    </div>
+    <div class="text-box">
+      <h2>💬</h2>
+      <p>A amizade que nasceu no jogo se tornou algo real, forte e verdadeiro. Você é minha parceira de time e da vida.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="text-box">
+      <h2>🍣 O Japa da Manu</h2>
+      <p>Você brilha até falando de sushi. Quando vejo um temaki, lembro de você sorrindo só de pensar em comida japonesa. É a sua cara!</p>
+    </div>
+    <div class="text-box">
+      <h2>🍱</h2>
+      <p>Prometo um rodízio em sua homenagem (mesmo que virtual), porque você merece tudo do bom e do melhor.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="text-box">
+      <h2>🚗 Sons de Carros</h2>
+      <p>Seu olho brilha quando ouve o ronco de um motor. Você entende mais de carro do que muito mecânico por aí! Isso te torna única.</p>
+    </div>
+    <div class="text-box">
+      <h2>🔥</h2>
+      <p>Um dia quero te dar uma volta em um carro que faça o coração acelerar tanto quanto o meu quando falo contigo.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="text-box">
+      <h2>❤️ Minha Melhor Amiga</h2>
+      <p>Manu, eu gosto de você de um jeito sincero e leve. Sua amizade me faz bem. Você é importante, forte, inteligente e linda — e eu quero que o mundo todo saiba disso.</p>
+    </div>
+    <div class="text-box">
+      <h2>🌟</h2>
+      <p>Esse site é só um pedacinho de tudo que eu gostaria de te mostrar. Obrigado por ser quem você é. Feliz aniversário!</p>
+    </div>
+  </section>
+
+  <footer>
+    Com carinho, do seu player 2 que gosta muito de você. 🎮💖
+  </footer>
 </body>
 </html>
